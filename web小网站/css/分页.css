@@ -1,0 +1,134 @@
+/* 动物地理区 */
+/* 地理图 */
+.dili{
+    margin: auto;
+    width:480px ;
+    height: 386px;
+}
+/* 标题 */
+.head{
+    font-size: 40px;
+    font-family: "隶书";
+    text-align: center;
+    color: #000;
+}
+/* 文字内容 */
+.neirong{
+    font-size: 20px;
+    font-family: "黑体";
+    padding: 40px 40px 0px 40px;
+    color: rgb(64, 64, 64);
+}
+.neirong::before{
+    content: "     ";
+    white-space: pre;
+}
+/* 动物物种 */
+ @keyframes a{
+    form{
+        margin: -40px 18px 18px 0px;
+    }
+    to{
+        margin: 40px 18px;
+    }
+}
+
+.wz{
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+font-family: "宋体";
+color: rgb(100, 4, 4);
+}
+.wz::before{
+    content: "     ";
+    white-space: pre;
+}
+/* 图片 */
+.tu span{ background-color: rgb(218, 210, 132);
+    display: block;
+    height: 160px;
+    width: 200px;
+    float: left;
+    margin: -40px 18px 18px 0px;
+   text-align: center;
+    line-height: 3;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(66, 90, 28);
+    writing-mode: vertical-lr;
+    animation-name: a;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+.tu img{
+    width:160px;
+    height: 160px;
+}
+
+/* 事迹 */
+.cs_wz{
+    font-size: 20px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
+    color: #000;
+    font-family: "行楷";
+
+}
+.cs_wz::before{
+    content: "      ";
+    white-space: pre;
+}
+/* 标题 */
+.head1{
+    font-size: 40px;
+    font-family: "隶书";
+    text-align: center;
+    color: #000;
+    padding-top: 80px;
+}
+/* 珍稀动物 */
+@keyframes b{
+    from{
+        transform: translateX(-1000px);
+        margin: 20px 20px 0px 20px;
+    }
+    to{
+        margin: 20px 20px 0px 20px;
+    }
+}
+@keyframes c{
+    from{
+        margin: 20px;
+        transform: translateX(1000px);
+    }
+    to{
+        margin: 20px;
+    }
+}
+.zx_wz{
+    font-size: 20px;
+    margin: 20px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
+    color: #000;
+    font-family: "华文楷体";
+    position: relative;
+animation-name: b;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}
+.zx_wz::before{
+    content: "      ";
+    white-space: pre;
+}
+
+
+.zx_tu img{
+float: right;
+margin: 20px;
+border: 4px #bfa dotted;
+animation-name: c;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+}

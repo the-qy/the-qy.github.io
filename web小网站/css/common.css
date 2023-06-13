@@ -1,0 +1,87 @@
+/* 中国野生动物图片 点击可返回首页 */
+.shortcut {
+    width: 980px;
+    height: 200px;
+    margin: auto;
+}
+.shortcut a{
+    display: block;
+    width: 980px;
+    height: 200px;
+}
+
+.shortcut img {
+    width: 100%;
+}
+/* 绿叶背景图 */
+body{
+ 
+    background: url(../image/43.jpg);
+    background-position:center;
+    background-position: top;
+    
+
+}
+
+/*动物地理区 导航栏 */
+
+.nav ul {
+    background-color: #bfa;
+    width: 950px;
+    margin: auto;
+}
+
+.nav li {
+    float: left;
+    line-height: 35px;
+    width: 135.6px;
+    background-color: rgb(238, 192, 41);
+}
+
+.nav a {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(19, 92, 31);
+}
+
+.nav a:hover {
+    background-color: orange;
+}
+/* 文本后面wheat色背景 */
+#beijing {
+    height: auto;
+    width: 950px;
+    margin: auto;
+    background-color: wheat;
+}
+/* 文末“返回首页” */
+.shouye a{
+    display: block;
+    font-size: 25px;
+    font-family: "";
+    width: 150px;
+    margin: auto;
+    margin-top: 40px;
+    color: rgb(12, 116, 119);
+}
+.shouye a:hover{
+    color: green;
+}
+/* back悬浮图标 */
+#back{
+    width: 85px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 3;
+    font-size: 35px;
+    background-color: rgb(131, 185, 43);
+    color: green;
+    left: 80%;
+    top:90%;
+    text-align: center;
+}
+#back a{
+    color:green;
+}
